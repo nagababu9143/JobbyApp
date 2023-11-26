@@ -1,0 +1,54 @@
+.each-card {
+  background-color: #202020;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 30px;
+}
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 100px;
+  margin-right: 20px;
+}
+.job-title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  width: 50px;
+  margin-right: 10px;
+}
+.location-and-and-salary-jobType-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-and-jobType-container {
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.icons {
+  width: 50px;
+  margin-right: 10px;
+}
+.job-description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}

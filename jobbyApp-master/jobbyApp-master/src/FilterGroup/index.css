@@ -1,0 +1,14 @@
+.employment-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.label {
+  color: #ffffff;
+}
+.salaryRange-container {
+  padding-left: 0;
+}
+.each-salaryRange {
+  margin-bottom: 10px;
+}

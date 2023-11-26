@@ -1,0 +1,112 @@
+.jobsRoute-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.filter-and-jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-and-filter-container {
+  padding: 20px;
+  min-width: 20vw;
+}
+.profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px;
+}
+.profile-name {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.profile-bio {
+  color: #2c364c;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  list-style-type: none;
+}
+.search-container {
+  padding: 10px;
+  padding-right: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  border: 1px solid #64748b;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+.search {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  width: 250px;
+}
+.searchButton-container {
+  background-color: #2c364c;
+  width: 40px;
+  height: 38px;
+  border: 0;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-icon {
+  color: #ffffff;
+}
+.failureView-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60vw;
+}
+.failure-image {
+  margin-top: 20px;
+  width: 400px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+.profileButton-Container {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noJob-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 60vw;
+}
+.jobsList-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+.no-job-image {
+  width: 300px;
+  margin-top: 20px;
+}
+@media Screen and (min-width: 768px) {
+  .filter-and-jobs-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
